@@ -1,0 +1,57 @@
+	.boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+	background-image:url(../img/red-background.gif);
+        height:25px;
+	border-color: 666699;
+	border-width: 2;
+   }
+   .texto {
+	background-color: FBFCFD;
+	border-color: ddddff;
+	font-family: verdana;
+    }
+   .textocom {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	}
+   .textoimpre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #111111;
+	}
+   .visibleflash {
+	visibility: hidden;
+	}
+	.campotext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F4F4F4;
+	height: auto;
+	}
+        .camponot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: auto;
+	}
+	.textocomnb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCCCCC;
+	}
+	body {
+            SCROLLBAR-FACE-COLOR:#990000;
+            SCROLLBAR-HIGHLIGHT-COLOR: #990000;
+            SCROLLBAR-SHADOW-COLOR: #990000;
+            SCROLLBAR-3DLIGHT-COLOR: #FFFFFF;
+            SCROLLBAR-ARROW-COLOR: #FFFFFF;
+            SCROLLBAR-TRACK-COLOR: #CCCCCC;
+            SCROLLBAR-DARKSHADOW-COLOR: #000000;
+	}
+

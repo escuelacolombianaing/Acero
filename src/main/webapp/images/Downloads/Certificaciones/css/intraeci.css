@@ -1,0 +1,193 @@
+/* 
+    Document   : comun
+    Created on : 21/07/2008, 09:05:18 AM
+    Author     : alexgz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.tabla {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+
+}
+
+.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+
+.campotext{
+	color:#666 !important;
+  	font-size: 10px;
+}
+
+body{
+	background:#eee;
+	margin:7px 0 15px 0;
+	text-align:center;
+	font-size:small;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+#container{
+	text-align:left;
+	background:#fff;
+}
+
+#container, #top, #bottom, #footer{
+	margin:0 auto;
+	width:770px;
+}
+
+/* ----- INFO ----- */
+
+.info{
+	display:inline-block; 
+	clear:both;
+	border-bottom:1px dotted #ccc;
+	margin:0 0 1em 0;
+}
+
+.info[class]{
+	display:block;
+}
+.info h2{
+	font-weight:normal;
+	font-size:160%;
+	margin:0 0 3px 0;
+	clear:left;
+}
+.info p{
+	font-size:95%;
+	line-height:135%;
+	margin:0 0 12px 0;
+}
+
+/* ----- SECTIONS ----- */
+form div{
+  font-weight: bold;
+}
+
+form .req{
+	float:none;
+	color:red !important;
+	font-weight:bold;
+	margin:0;
+}
+
+.piepag{
+  font-size: 10px;
+}
+
+.boton{
+    font-size:10px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    height:25px;
+    border-color: #333333;
+    border-width: 2;
+    background-color: #666666;
+}
+
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.wireframemenu{
+border: 1px solid #C0C0C0;
+background-color: white;
+border-bottom-width: 0;
+width: 170px;
+}
+
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */
+width: 164px;
+}
+
+.wireframemenu ul{
+background-color: #EEEEEE;
+	margin:0 0 2em 0;
+padding: 0;
+list-style-type: none;
+}
+
+.wireframemenu a{
+font: bold 13px Verdana;
+padding: 4px 3px;
+display: block;
+width: 100%; /*Define width for IE6's sake*/
+color: #595959;
+text-decoration: none;
+border-bottom: 1px solid #C0C0C0;
+}
+
+.wireframemenu a:visited{
+color: #595959;
+}
+
+html>body .wireframemenu a{ /*Non IE rule*/
+width: auto;
+}
+
+.wireframemenu a:hover{
+background-color: #FFF7C0;
+color: black;
+}
+ /**************/
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.urbangreymenu{
+width: 250px; /*width of menu*/
+}
+
+.urbangreymenu .headerbar{
+font: bold 13px Verdana;
+color: white;
+background: #606060 url(media/arrowstop.gif) no-repeat 8px 6px; /*last 2 values are the x and y coordinates of bullet image*/
+margin-bottom: 0; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 7px 0 7px 31px; /*31px is left indentation of header text*/
+}
+
+.urbangreymenu ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+}
+
+.urbangreymenu ul li a{
+font: normal 12px Arial;
+color: black;
+background: #E9E9E9;
+display: block;
+padding: 5px 0;
+line-height: 12px;
+padding-left: 8px; /*link text is indented 8px*/
+text-decoration: none;
+}
+
+.urbangreymenu ul li a:visited{
+color: black;
+}
+
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+color: white;
+background: #333333;
+}

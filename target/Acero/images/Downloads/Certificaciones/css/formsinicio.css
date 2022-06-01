@@ -1,0 +1,86 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+div {
+	width: 400px;
+}
+
+div input {
+	border: 1px solid #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #666666;
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+	float:right;
+}
+
+div select {
+	border: 1px solid #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #666666;
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+	float:right;
+}
+
+div label {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 11px;
+	color: #666666;
+	float: left;
+}
+
+div fieldset {
+	padding:2em;
+	display: block;
+	width: 200px;
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+img {
+    border: none;
+}
+
+/*- Menu 8--------------------------- */
+
+#menu8 {
+        width: 200px;
+        margin: 10px;
+        border-style: solid;
+        border-color: #cccccc;
+        border-size: 1px;
+        border-width: 1px;
+        }
+
+#menu8 li a {
+        height: 32px;
+          voice-family: "\"}\"";
+          voice-family: inherit;
+          height: 24px;
+        text-decoration: none;
+        }
+
+#menu8 li a:link, #menu8 li a:visited {
+        color: #656556;
+        display: block;
+        background:  url(../img/menu8.gif);
+        padding: 8px 0 0 20px;
+        }
+
+#menu8 li a:hover, #menu8 li #current {
+        color: #474739;
+        background:  url(../img/menu8.gif) 0 -32px;
+        padding: 8px 0 0 20px;
+        }
